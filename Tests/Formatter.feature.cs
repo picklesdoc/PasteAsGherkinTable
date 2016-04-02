@@ -79,12 +79,12 @@ namespace PicklesDoc.PasteAsGherkinTable.Tests
 this.ScenarioSetup(scenarioInfo);
 #line hidden
 #line 7
-    testRunner.Given("the clipboard contains", "verb;pronoun;adjective\r\n  isn\'t;that;cool?", ((TechTalk.SpecFlow.Table)(null)), "Given ");
+    testRunner.Given("the clipboard contains", "verb;pronoun;adjective\r\nisn\'t;that;cool?", ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 12
     testRunner.When("I invoke \"Paste As Gherkin Table\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 13
-    testRunner.Then("the following should be pasted", "  | verb  | pronoun | adjective |\r\n  | isn\'t | that    | cool?     |", ((TechTalk.SpecFlow.Table)(null)), "Then ");
+    testRunner.Then("the following should be pasted", "| verb  | pronoun | adjective |\r\n| isn\'t | that    | cool?     |", ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -99,12 +99,12 @@ this.ScenarioSetup(scenarioInfo);
 this.ScenarioSetup(scenarioInfo);
 #line hidden
 #line 20
-    testRunner.Given("the clipboard contains", "verb;pronoun;adjective\r\n  isn\'t;that;extremely cool?", ((TechTalk.SpecFlow.Table)(null)), "Given ");
+    testRunner.Given("the clipboard contains", "verb;pronoun;adjective\r\nisn\'t;that;extremely cool?", ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 25
     testRunner.When("I invoke \"Paste As Gherkin Table\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 26
-    testRunner.Then("the following should be pasted", "  | verb  | pronoun | adjective       |\r\n  | isn\'t | that    | extremely cool? |", ((TechTalk.SpecFlow.Table)(null)), "Then ");
+    testRunner.Then("the following should be pasted", "| verb  | pronoun | adjective       |\r\n| isn\'t | that    | extremely cool? |", ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -119,12 +119,12 @@ this.ScenarioSetup(scenarioInfo);
 this.ScenarioSetup(scenarioInfo);
 #line hidden
 #line 33
-    testRunner.Given("the clipboard contains", "verb,pronoun,adjective\r\n  isn\'t,that,cool?", ((TechTalk.SpecFlow.Table)(null)), "Given ");
+    testRunner.Given("the clipboard contains", "verb,pronoun,adjective\r\nisn\'t,that,cool?", ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 38
     testRunner.When("I invoke \"Paste As Gherkin Table\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 39
-    testRunner.Then("the following should be pasted", "  | verb  | pronoun | adjective |\r\n  | isn\'t | that    | cool?     |", ((TechTalk.SpecFlow.Table)(null)), "Then ");
+    testRunner.Then("the following should be pasted", "| verb  | pronoun | adjective |\r\n| isn\'t | that    | cool?     |", ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -139,13 +139,12 @@ this.ScenarioSetup(scenarioInfo);
 this.ScenarioSetup(scenarioInfo);
 #line hidden
 #line 46
-    testRunner.Given("the clipboard contains", "verb;pronoun;adjective\r\n  isn\'t;that, you know,;cool?", ((TechTalk.SpecFlow.Table)(null)), "Given ");
+    testRunner.Given("the clipboard contains", "verb;pronoun;adjective\r\nisn\'t;that, you know,;cool?", ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 51
     testRunner.When("I invoke \"Paste As Gherkin Table\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 52
-    testRunner.Then("the following should be pasted", "  | verb  | pronoun         | adjective |\r\n  | isn\'t | that, you know, | cool?   " +
-                    "  |", ((TechTalk.SpecFlow.Table)(null)), "Then ");
+    testRunner.Then("the following should be pasted", "| verb  | pronoun         | adjective |\r\n| isn\'t | that, you know, | cool?     |", ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
