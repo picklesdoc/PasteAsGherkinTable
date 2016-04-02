@@ -10,3 +10,5 @@ packages
 # mstest test results
 TestResults
 .vs/
+*.cache
+PasteAsGherkinTable.ncrunchsolution.user
